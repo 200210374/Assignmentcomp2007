@@ -1,9 +1,45 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sitecontact.master.cs" Inherits="Assignment.sitecontact" %>
-
+<%@ Register Src="~/navbar.ascx" TagName="Navbar" TagPrefix="nav" %>
 <html>
+
+    <head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <!--css-->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+        <link href="Content/app.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
 <body>
-<h1>Standard Header From Masterpage</h1>
-<asp:ContentPlaceHolder id="CPH1" runat="server">
+   <h1>Brandon Roy 200210374</h1>
+    <p>
+        comp2007Assignment.azureweb
+        This site is for assignment1
+    </p>
+
+   
+        <nav:Navbar runat="server"></nav:Navbar>
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   
+
+
+    <!--java-->
+    <script src="Scripts/jquery-2.2.3.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/app.js"></script>
+<asp:ContentPlaceHolder id="Contact" runat="server">
 </asp:ContentPlaceHolder>
 </body>
+    
+
 </html>

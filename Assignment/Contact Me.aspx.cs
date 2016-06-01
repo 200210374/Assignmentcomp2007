@@ -18,7 +18,7 @@ namespace Assignment
 
         protected void SendButton_Click(object sender, EventArgs e)
         {
-            //replace this code with processing email
+            
             Response.Redirect("Default.aspx");
         }
 
