@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="sitecontact.master.cs" Inherits="Assignment.sitecontact" %>
+
+<html>
+<body>
+<h1>Standard Header From Masterpage</h1>
+<asp:ContentPlaceHolder id="CPH1" runat="server">
+</asp:ContentPlaceHolder>
+</body>
+</html>
