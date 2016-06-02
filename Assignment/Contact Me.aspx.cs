@@ -16,15 +16,15 @@ namespace Assignment
 
 
 
-        protected void SendButton_Click(object sender, EventArgs e)
+        protected void SubmitButton_Click(object sender, EventArgs e)
         {
             
-            Response.Redirect("Default.aspx");
+            Response.Redirect("Home page.aspx");
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Default.aspx");
+            Response.Redirect("Home page.aspx");
         }
 
 

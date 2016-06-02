@@ -17,11 +17,12 @@
 </head>
 
 <body>
-   <h1>Brandon Roy 200210374</h1>
-    <p>
+          <!-- As part of a header this is shown on every site thats linked to this master page  -->
+   <h1 style="text-align:center">Brandon Roy 200210374</h1>
+    <h3 style="text-align:center">
         comp2007Assignment.azureweb
         This site is for assignment1
-    </p>
+    </h3>
 
    
         <nav:Navbar runat="server"></nav:Navbar>

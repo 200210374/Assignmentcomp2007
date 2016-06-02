@@ -2,16 +2,11 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Contact" runat="server">
-
- 
-            
-        
-
-         
-
+       <link href="Content/cssStyleSheet.css" rel="stylesheet" />
+          <!-- THis is the contact form. It dosent have the functionality but when you click submit or cancel button it will send you to the home page. -->
       <form runat="server">
     <div class="col-md-6">
-        
+     
         <div class="form-group">
            
         <label class="control-label" for="FirstNameTextBox">First Name</label>
@@ -36,11 +31,11 @@
                
               </div>
         <div class="text-right">
-            <a class="btn btn-warning btn-lg" ID="CancelButton" Text="Cancel" href="Default.aspx" />
+            <a class="btn btn-warning btn-lg" ID="CancelButton" Text="Cancel" href="Home page.aspx" />
                    <asp:Button  CssClass="btn btn-primary btn-lg" ID="Cancel" Text="Cancel" runat="server" />
              </div>
-        <div class="text-right">
-            <a class="btn btn-warning btn-lg" ID="SendButton" Text="Send" href="Default.aspx" />
+        <div class="text-left">
+            <a class="btn btn-warning btn-lg" ID="SubmitButtonText" Text="Send" href="Home page.aspx" />
                    <asp:Button  CssClass="btn btn-primary btn-lg" ID="SubmitButton" Text="Submit" runat="server" />
     </div>
         </div>

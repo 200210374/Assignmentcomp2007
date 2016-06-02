@@ -1,5 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/site.Master" AutoEventWireup="true" CodeBehind="About me.aspx.cs" Inherits="Assignment.About_me" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    
+
+
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
      <!DOCTYPE html>
 
 <head>
@@ -12,7 +18,8 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+          <!-- The code here is my personal information in the about.aspx page -->
+          <!-- THe code is in a container and a panel -->
 <div class="container">
         <div class="row">
         <div class="row col-md-8">
@@ -29,7 +36,7 @@
   <strong>Brandon Roy</strong><br>
   17 Newton Barrie<br>
   barrie,Ontario<br>
-  <abbr title="Phone">Tel:</abbr> (705) 4444095
+ (705) 4444095<br />
   <a href="mailto:#">brandonroycstn@hotmail.com</a>
              <p>I am a programming student with a computer system technician degree.</p>
 </address>
@@ -42,9 +49,4 @@
 </div>
 </body>
         </html>
-
-
-
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 </asp:Content>
